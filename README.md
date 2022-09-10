@@ -1,3 +1,3 @@
-# macalu.so
+# My personal homepage 🏠
 
-This is my personal webpage written in nextjs.
+Welcome to my little slice of the internet :)
