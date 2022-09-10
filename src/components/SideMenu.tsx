@@ -1,5 +1,4 @@
 import { FiGithub, FiTwitter } from "react-icons/fi";
-import { SiGithubsponsors } from "react-icons/si";
 import { HiOutlineCollection, HiOutlineHome, HiOutlineIdentification } from "react-icons/hi";
 import PageLink from "./PageLink";
 
