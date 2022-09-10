@@ -1,4 +1,5 @@
 {
+  "name": "macaluso",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +12,7 @@
   "dependencies": {
     "@next/mdx": "^12.3.0",
     "next": "latest",
+    "next-mdx-remote": "^4.1.0",
     "react": "latest",
     "react-dom": "latest"
   }
