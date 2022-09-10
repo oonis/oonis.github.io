@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { motion } from "framer-motion";
 import { Footer } from "../components/Footer";
 import { SideMenu } from "../components/SideMenu";
-import profilePic from '/public/avatar.jpg';
 
 const Home: NextPage = () => {
     return (
@@ -16,7 +15,7 @@ const Home: NextPage = () => {
             <div className="h-[100vh] flex flex-col items-center justify-center text-zinc-300 text-3xl font-semibold">
                 <motion.div animate={{ opacity: [0, 1], x: [-20, 0] }} transition={{ duration: 0.4 }} className="md:pl-56 pl-8 pr-8 flex flex-col md:flex-row">
                     <div>
-                        <Image src={profilePic} alt="avatar" layout="fixed" className="rounded-2xl"width={128} height={128}/>
+                        <ExportedImage src="images/avatar.jpg" alt="avatar" layout="fixed" className="rounded-2xl"width={128} height={128}/>
                     </div>
                     <section className="md:pl-8 lg:w-[32rem]">
                         <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-[#D8B7EE] via-[#E494AC] to-[#A1CBF7]">Hello there.</h1>
