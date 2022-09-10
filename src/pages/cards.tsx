@@ -22,9 +22,6 @@ export default function Cards() {
           <div className="p-4 border flex bg-black rounded border-neutral-800 hover:border-white transition-all">
             This is also a card
           </div>
-          <div className="p-4 border flex bg-black rounded border-neutral-800 hover:border-white transition-all">
-            This aswell is a card
-          </div>
         </div>
       </motion.div>
       <Footer />
