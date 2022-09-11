@@ -43,12 +43,7 @@ const MobileContent = () => {
         <PageLink href={"/cards"}>
           <div className="flex gap-2 rounded px-4 py-2 items-center">
             <HiOutlineCollection className="text-2xl" />
-            <p>Cards</p>
-          </div>
-        </PageLink>
-        <PageLink href={"/page4"}>
-          <div className="flex gap-2 rounded px-4 py-2 items-center">
-            <p>Page 4</p>
+            <p>Projects</p>
           </div>
         </PageLink>
       </menu>
