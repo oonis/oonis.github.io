@@ -3,7 +3,7 @@ import { Footer } from "../components/Footer";
 import { motion } from "framer-motion";
 import Head from "next/head";
 
-export default function Cards() {
+export default function Projects() {
   return (
     <>
       <Head>

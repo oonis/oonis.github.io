@@ -4,9 +4,6 @@ import PageLink from "./PageLink";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-// To customize the SideMenu buttons, go to PageLink.tsx to change the style of them.
-// If you want to change the link's between pages then change the href="" in <PageLink> and <MobileMenu> and make sure to also modify the file names of the pages for example cards.tsx or page4.tsx including the exported function name "export default function Page4() {"
-
 export const MobileMenu = () => {
   const [openMobileMenu, setMobileMenu] = useState(false);
 
@@ -40,7 +37,7 @@ const MobileContent = () => {
             <p>About</p>
           </div>
         </PageLink>
-        <PageLink href={"/cards"}>
+        <PageLink href={"/projects"}>
           <div className="flex gap-2 rounded px-4 py-2 items-center">
             <HiOutlineCollection className="text-2xl" />
             <p>Projects</p>
