@@ -16,7 +16,7 @@ export default function About() {
         className="md:pl-56 px-8 pt-8 pb-32 text-zinc-300 text-lg"
       >
         <h1 className="font-bold text-white text-2xl">About me</h1>
-        <p className="">Nothing here yet :)</p>
+        <p className="">Nothing here just yet :)</p>
       </motion.div>
       <Footer />
     </>
