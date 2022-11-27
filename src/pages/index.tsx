@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                     <section className="md:pl-8 lg:w-[32rem]">
                         <h1 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-[#D8B7EE] via-[#E494AC] to-[#A1CBF7]">Hello there.</h1>
                         <p className="font-normal text-lg">
-                            Personal website for Sam! Mind the mess, still under construction.
+                            Hello! The website is currently (slowly) being redesigned and refactored. But welcome!
                         </p>
                     </section>
                 </motion.div>
